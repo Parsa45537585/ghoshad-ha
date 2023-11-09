@@ -1,0 +1,171 @@
+  <div class="content2 p-5">
+    <div class="card-group">
+        <div class="card">
+            <img src="photo/download (8).jpg"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">سنگ گرانیت</h5>
+                <p class="card-text">سنگ گرانیت یا سنگ خارا به معنای «خرمنی از دانه‌های درشت رنگی» یکی از فراوان‌ترین سنگ‌های آذرین و از مستحکم‌ترین سنگ‌های ساختمانی است که از سردشدن تدریجی مواد مذاب به وجود می‌آید. ساختار تشکیل دهنده این سنگ عمدتاً بلور کانی‌های کوارتز و فلدسپات است. ابعاد این بلورها به گونه ای است که به راحتی و با چشم قابل رویت است.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="photo/download (9).jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">سنگ مرمر</h5>
+                <p class="card-text">سنگ مرمر به انگلیسی onyx stone و onyx marble نیز گفته می‌شود. سنگ مرمر از سنگ‌های دگرگونی است که از دگرگونی سنگ آهک به وجود آمده‌است. کانی اصلی تشکیل دهنده آن کلسیت است. از این سنگ به صورت گسترده‌ای برای مجسمه‌سازی استفاده شده‌است.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="photo/download (10).jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">سنگ مرمر گلدن</h5>
+                <p class="card-text">از دیدن این سنگ هیجان زده می‌شوید اما کمی صبر کنید و انتخاب آگاهانه داشته باشید. چرا که بازی طرح بالایی داشته و مقادیر رگه های طلایی و سفید و حتی زمینه در سورت های گوناگون متفاوت است. در برابر شرایط اسیدی ناپایدار است و مناسب فضای بیرونی نیست. بیشترین کاربرد به عنوان سنگ رومیزی – سنگ دیوار فضای داخلی – قاب آسانسور –  مکمل کف و پله و همچنین مصنوعات سنگی.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="smoothie-img">
+  <img src="pics/sm.jpg" alt="" class="img-fluid">
+</div>
+<div class="content p-5 ">
+  <div class="card mb-3 " style="max-width: 90%;">
+      <div class="row g-0 ">
+          <div class="col-md-4">
+              <img src="photo/w_W1dL2.jpg"
+                  class="img-fluid rounded-start card-img-top" alt="...">
+          </div>
+          <div class="col-md-8">
+              <div class="card-body">
+                  <h5 class="card-title">سنگ یشم سبز</h5>
+                  <p class="card-text">یشم سبز یک نوع ماده معدنی است و دارای رنگ‌های گوناگون از جمله سبز، زرد کم‌رنگ، سفید، بنفش و سرخ می‌باشد. برای تشخیص خلوص رنگی یشم سبز از دستگاهی به نام دیکروسکوپ استفاده می‌شود. در گذشته در سواحل دریای خزر این سنگ‌ها در رنگ‌های متنوعی و به فراوانی یافت می‌شده‌است.
+                  </p>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="card mb-3" style="max-width: 90%;">
+      <div class="row g-0">
+          <div class="col-md-4">
+              <img src="photo/download (6).jpg" class="img-fluid rounded-start card-img-top" alt="...">
+          </div>
+          <div class="col-md-8">
+              <div class="card-body">
+                  <h5 class="card-title">سنگ یشم قرمز</h5>
+                  <p class="card-text">یشم سرخ سبب از بین بردن ارتعاشات و انرژی‌های منفی در بدن می گردد. این سنگ بر روی عاطفه ، فهم و درک نیز می‌تواند تاثیرات مثبتی داشته باشد. یشم در تسکین عوارض روده ای همچون نفخ و یبوست و نیز تقویت معده و از بین بردن حالت تهوع، نیز بسیار توصیه می گردد.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="card mb-3" style="max-width: 90%;">
+      <div class="row g-0">
+          <div class="col-md-4">
+              <img src="photo/download (7).jpg"
+                  class="img-fluid rounded-start card-img-top" alt="...">
+          </div>
+          <div class="col-md-8">
+              <div class="card-body">
+                  <h5 class="card-title">سنگ یشم ابی</h5>
+                  <p class="card-text">از این گوهر گران بها به عنوان ”سنگ بهشت” نیز نام می برند به طوری که چندین هزار سال مورد احترام بوده و آنچنان در اعتقادات مردم خالص و مقاوم به شمار می آمد که برای افراد استفاده کننده منبع والاترین هدف های معنوی در نظر گرفته می‌شد. قیمت سنگ</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<div class="row justify-content-center">
+  <div class="card" style="width: 18rem;">
+      <img src="photo\61c1ea76b5d71.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">پوکه</h5>
+        <p class="card-text">پوکه ها سنگدانه های سبک طبیعی (پوکه معدنی) یا فرآوری شده (پوکه صنعتی) هستند که به دلیل تخلخل موجود دارای وزن مخصوص کم </p>
+        <a href="#" class="btn btn-primary bcart">خرید</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="photo\1570256409_W1dL2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">خاک رس</h5>
+        <p class="card-text">رُس طبق تعریف انجمن مواد و آزمون آمریکا به کانی‌های طبیعی آگلومره شده شامل فیلوسیلیکات آلومینیوم آب‌دار گفته می‌شود</p>
+        <a href="#" class="btn btn-primary bcart">خرید</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="photo\download (1).jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">سیمان سفید</h5>
+        <p class="card-text">سیمان سفید، یکی از انواع گوناگون سیمان موجود در بازار است که در تولید آن موادی که باعث تغییر رنگ سیمان می‌شود حذف شده است. </p>
+        <a href="#" class="btn btn-primary bcart">خرید</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="photo\download (2).jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">سیمان سیاه</h5>
+        <p class="card-text">سیمان، مخلوطی پودری از املاح معدنی است که پس از ترکیب با آب خود را گیرد و سفت میشود. سيمان، اين محصول استراتژيك و بسيار م</p>
+        <a href="#" class="btn btn-primary bcart">خرید</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="photo\download (3).jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">قیر</h5>
+        <p class="card-text">این ماده‌ به رنگ سیاه تا قهوه‌ای تیره است و در سولفید کربن و تتراکلرید کربن[۱] کاملاً حل می‌شود. قیر در دمای محیط، جامد است.</p>
+        <a href="#" class="btn btn-primary bcart">خرید</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="photo\download (4).jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">بلوک</h5>
+        <p class="card-text">بلوک سیمانی و سبک به قطعاتی گفته می‌شوند که معمولاً برای ساخت ساختمان‌ها یا دیوارها یا سقف‌ها کاربر دارند. بلوک‌های س</p>
+        <a href="#" class="btn btn-primary bcart">خرید</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="photo\download (5).jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">بشکه</h5>
+        <p class="card-text">بُشکِه، بیرِل یا بَرِل نگهدانده استوانه‌ای یا خمره‌مانند و توخالی است که معمولاً جهت بسته‌بندی مواد شیمیخرید</p>
+        <a href="#" class="btn btn-primary bcart">خرید</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="photo\download.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">سفال</h5>
+        <p class="card-text">سُفال قطعه‌ای از سرامیک را می‌نامند که بین ۸۵۰ درجهٔ سانتی‌گراد تا ۱٬۰۰۰ درجهٔ سانتی‌گراد آتش دیده و دارای تخلخل نامرت</p>
+        <a href="#" class="btn btn-primary bcart">خرید</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="photo\download1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">گونی</h5>
+        <p class="card-text">گونی یا کیسه نوعی پارچه زمخت است که برای ساختن کیسه‌های بادوام و محکم برای حمل محصولات کشاورزی مانند سیب‌زمینی و برن</p>
+        <a href="#" class="btn btn-primary bcart">خرید</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="photo\پودر-سنگ-جوشقان.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">پودر سنگ</h5>
+        <p class="card-text">به مواد پودری‌شکل و بسیار ریزی گفته می‌شود که از سنگ‌ها که بر اثر نیروی سایش یخچال‌ها بر کف یخچال به‌وجود می‌آید.[۱] </p>
+        <a href="#" class="btn btn-primary bcart">خرید</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="photo\licensed-image.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">اجر</h5>
+        <p class="card-text">یکی از مصالح ساختمانی است که  باای به‌صورت بلوک هایی یدئط  از جنس خاک رُس و مواد دیگر ساخته شده است</p>
+        <a href="#" class="btn btn-primary bcart">خرید</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="photo\images.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">گچ</h5>
+        <p class="card-text">گَچ کلسیم سولفات آبدار طبیعی یا غیرطبیعی است و در چندین فرم بلوری یافت می‌شود که در ذخایر پوسته جامد کره زم</p>
+        <a href="#" class="btn btn-primary bcart">خرید</a>
+      </div>
+    </div>
+  </div>

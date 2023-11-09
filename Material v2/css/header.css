@@ -1,0 +1,118 @@
+.header {
+    display: flex;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 37px;
+    background-color: rgb(241, 241, 241);
+    box-shadow: 0.1px 0.1px 0.1px;
+    z-index: 3;
+}
+
+
+.hlink1 {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: x-small;
+    position: absolute;
+    top: 10px;
+    right: 75px;
+
+}
+
+
+
+.himg {
+    width: 20x;
+    height: 20px;
+    position: relative;
+    top: 8px;
+    margin-left: 10px;
+}
+
+
+.hp {
+    position: relative;
+    left: 5px;
+    font-size: small;
+    top: 8px;
+}
+
+.hlogo {
+    position: absolute;
+    right: 10px;
+    width: 45px;
+    height: 45px;
+}
+
+.header1 {
+    position: absolute;
+    top: 35px;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    width: 100%;
+    box-shadow: 0.1px 0.1px 0.1px;
+}
+
+
+.hnav {
+
+    background-color: rgb(255, 255, 255) !important;
+}
+
+
+
+.himg2 {
+    position: absolute;
+    border-right: rgba(139, 139, 139, 0.822) 1px solid;
+    padding-right: 15px;
+    top: 5px;
+    right: 200px;
+    width: 40px;
+    height: 20px;
+}
+
+.hbutton1 {
+    text-decoration: none;
+    height: 30px;
+    width: 100px;
+    display: flex;
+    position: absolute;
+    top: 3px;
+    right: 75px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: px 6px;
+    border: 1px rgba(0, 0, 0, 0.589) solid;
+    transition: 0.3s;
+}
+
+.hbutton1:hover {
+    border-color: rgb(0, 206, 0);
+}
+
+.himg1 {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 4px;
+}
+
+.ha1 {
+    text-decoration: none;
+    font-size: x-small;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+.nav-link {
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: rgb(0, 206, 0);
+}
