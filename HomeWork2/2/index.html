@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>random</title>
+    <link rel="stylesheet" href="CSS/index.css">
+</head>
+
+<body>
+    <main>
+        <div>
+           <button onclick="
+            const random = Math.random();
+            let ca = '';
+            if (random >= 0 && random < 0.5) {
+                ca = 'die';
+                alert('you will ' + ca);
+            } else {
+                ca = 'live';
+                alert('you will ' + ca)
+            }
+            ">your fate
+           </button>
+        </div>
+    </main>
+    <script>
+
+    </script>
+</body>
+
+</html>

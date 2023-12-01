@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeWork</title>
+    <link rel="stylesheet" href="CSS/index.css">
+</head>
+
+<body>
+    <main>
+        <div>
+            <button onclick="quantity-- ; console.log(quantity);
+             if (quantity <= 0) {quantity = 0};
+             if (quantity <= 0) {alert('you can not have less')};
+             ">-1</button>
+            <button onclick="quantity++ ; console.log(quantity);
+             if (quantity >= 10) {alert('you can not have more')};
+             if (quantity >= 10) {quantity = 0};">+1</button>
+            <button onclick="quantity = 0; console.log(quantity);">Reset</button>
+        </div>
+    </main>
+    <script>
+        let quantity = 0;
+    </script>
+</body>
+
+</html>
