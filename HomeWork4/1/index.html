@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mini game</title>
+  <link rel="stylesheet" href="CSS/index.css">
+</head>
+
+<body>
+  <button onclick="
+  Computer()
+      rps('Tie' , 'Lose' , 'Win' , 'Rock')"><img src="Pics/icons8-pet-rock-96.png" alt=""></button>
+  <button onclick="
+  Computer()
+      rps('Win' , 'Tie' , 'Lose' , 'Paper')"><img src="Pics/icons8-paper-waste-100.png" alt=""></button>
+  <button onclick="
+  Computer()
+      rps('Lose' , 'Win' , 'Tie' , 'Scissors')"><img src="Pics/icons8-scissors-100.png" alt=""></button>
+  <script>
+    function Computer() {
+      const random = Math.random();
+      if (random >= 0 && random <= 1 / 3) {
+        ComputerMove = 'Rock'
+      } else if (random >= 1 / 3 && random < 2 / 3) {
+        ComputerMove = 'Scissors'
+      }
+      else if (random >= 2 / 3 && random < 1) {
+        ComputerMove = 'Paper '
+      }
+    }
+    function rps(p1, p2, p3, p4) {
+      if (ComputerMove === 'Rock') {
+        result = p1
+      } else if (ComputerMove === 'Paper') {
+        result = p2
+      }
+      else if (ComputerMove === 'Scissors') {
+        result = p3
+      }
+      alert('You ' + result + ' | ' + 'Computer move was ' + ComputerMove + ' | ' + 'Your move was ' + p4)
+    }
+    let ComputerMove = '';
+    let result = '';
+  </script>
+</body>
+
+</html>
