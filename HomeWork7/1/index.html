@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <img id="image" src="134-1347817_undertale-annoying-dog-song.png" alt="">
+        <button id="btn" onclick="image()">MOVE</button>
+    </div>
+    <script>
+        function image(){
+            const image = document.getElementById('image')
+            if (image.style.marginLeft === '1000px') {
+                image.style.marginLeft = '300px'
+            } else {
+                image.style.marginLeft = '1000px'
+            }
+        }
+    </script>
+</body>
+
+</html>

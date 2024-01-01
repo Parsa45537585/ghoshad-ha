@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box {
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            height: 100%;
+            padding-left: 10px;
+        }
+
+        button {
+            border: black solid 2px;
+            padding: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box">
+    <h1>Lorem</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam pariatur, tempore harum assumenda cupiditate rem
+        laudantium libero in consequuntur nemo dolorum neque maxime molestiae amet sit quia at alias nihil autem dolor
+        placeat. Similique magnam, enim sunt ipsa rerum placeat ut, error ad deserunt voluptatem quos repellat quibusdam
+        suscipit praesentium non nisi itaque aliquam cumque totam provident eos, minima laboriosam? Dolore, veritatis
+        obcaecati accusantium, error ducimus quam voluptatum nisi pariatur temporibus illo minima enim odio neque quia?
+        Nihil sequi officiis suscipit. Quo quae voluptates est rem nisi possimus omnis, praesentium doloribus odit! Quos
+        ad saepe, aperiam libero sunt placeat eum?</p>
+        <button id="btn" onclick="btn()">Dark Mode</button>
+    </div>
+        <script>
+            function btn(){
+                const btn = document.getElementById('btn')
+                const box = document.getElementById('box')
+                if(btn.innerHTML === 'Dark Mode'){
+                    btn.innerHTML = 'Light Mode'
+                    btn.style.backgroundColor = 'white'
+                    btn.style.color = 'black'
+                    btn.style.borderColor = 'white'
+                    box.style.backgroundColor = 'black'
+                    box.style.color = 'white'
+                } else if(btn.innerHTML === 'Light Mode'){
+                    btn.innerHTML = 'Dark Mode'
+                    btn.style.backgroundColor = 'black'
+                    btn.style.color = 'white'
+                    btn.style.borderColor = 'black'
+                    box.style.backgroundColor = 'white'
+                    box.style.color = 'black'
+                }
+            }
+        </script>
+</body>
+
+</html>
