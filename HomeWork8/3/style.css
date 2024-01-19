@@ -1,0 +1,91 @@
+html {
+    height: 100%;
+}
+
+@font-face {
+    font-family: sf;
+    src: url(SFProDisplay-Medium.ttf) format(truetype);
+}
+
+* {
+    color: white;
+    font-family: sf;
+    transition: 0.5s;
+}
+
+body {
+    background: #11998E;
+    background: linear-gradient(150deg, #11998E 0%, #38EF7D 50%, #11998E 100%);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 300px;
+    height: auto;
+    font-size: large;
+    padding: 20px 30px;
+    display: block;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.356);
+}
+
+#myDiv {
+    display: block;
+    margin-top: 20px;
+}
+
+input[type=text] {
+    background: none;
+    border: none;
+    border-bottom: white 2px solid;
+    width: 300px;
+    font-size: large;
+    box-shadow: 0px 15px 15px -10px rgba(0, 0, 0, 0.4);
+}
+
+input[type=text]:hover {
+    border-color: #38EF7D;
+        box-shadow: 0px 15px 15px -10px rgba(0, 0, 0, 0.8);
+}
+
+input[type=text]:focus {
+    outline: none;
+    font-size: large;
+    border-color: #38EF7D;
+        box-shadow: 0px 15px 15px -10px rgba(0, 0, 0, 0.8);
+}
+
+button {
+    margin-top: 30px;
+    width: 300px;
+    border-radius: 12px;
+    height: 35px;
+    background-image: linear-gradient(to right, #15968b 0%, #2cb861 51%, #11998E 100%);
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+    border: 2px solid white;
+}
+
+button:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input[type=checkbox] {
+    margin: 10px;
+}

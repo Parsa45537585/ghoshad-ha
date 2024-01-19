@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="box">
+
+    <p class="label">Price</p>
+    <input type="text" id="price">
+    <p class="label">Tax</p>
+    <p id="tax"></p>
+    <p class="label">Shipment cost</p>
+    <p id="shipping"></p>
+    <p class="label">Total</p>
+    <p id="total"></p>
+
+    <button onclick="hello()">Calculate</button>
+
+</div>
+
+    <script>
+
+        function hello() {
+
+            const total = document.getElementById('total');
+            const shipping = document.getElementById('shipping');
+            const base_cost = document.getElementById('price');
+            const tax = document.getElementById('tax')
+            const tax_cost = (base_cost.value*10/100);
+            const total_cost = Number(base_cost.value) + Number(tax_cost);
+
+            if (base_cost.value >= 400) {
+                shipping.innerHTML = 'Free'
+            } else { shipping.innerHTML = 15 };
+
+            total.innerHTML = total_cost;
+            tax.innerHTML = tax_cost;
+
+        }
+    </script>
+
+</body>
+
+</html>
