@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url('وکتور-کلاس-درس-کارتونی-medium.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.game {
+    width: 100vw;
+    border-bottom: 1px solid black;
+    position: relative;
+    top: 268px;
+}
+
+.dino, .cactus {
+    position: absolute;
+    bottom: 0;
+}
+
+.dino {
+    left: 50px;
+}
+
+.cactus {
+    right: 0;
+    height: 50px;
+}
+
+.move {
+    animation: cactus-move 4s infinite;
+}
+
+@keyframes cactus-move {
+    0% {
+        right: 0;
+    }
+
+    100% {
+        right: 100%;
+    }
+}
+
+.jump {
+    animation: dino-jump 2s;
+}
+
+@keyframes dino-jump {
+    0% {
+        margin-bottom: 0;
+    }
+
+    50% {
+        margin-bottom: 200px;
+    }
+
+    100% {
+        margin-bottom: 0;
+    }
+}
