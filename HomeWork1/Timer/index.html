@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="box">
+        <div class="clock">
+    <p id="min" class="clock-items">00</p>
+    <p class="clock-items">:</p>
+    <p id="sec" class="clock-items">00</p>
+</div>
+
+<div class="clock">
+<input type="text" id="minInput">
+<p>:</p>
+<input type="text" id="secInput">
+</div>
+
+    <button class="btn" onclick="start()">Start</button>
+    <button class="btn" onclick="stop()">Stop</button>
+
+</div>
+
+    <script>
+        let myInterval;
+        let secInput = document.getElementById('secInput');
+        let minInput = document.getElementById('minInput');
+        let sec = document.getElementById('sec');
+        let min = document.getElementById('min');
+        let secVariable = 0;
+        let minVariable = Number(minInput.value);
+
+        function start (){
+            myInterval = setInterval(timer , 1000);
+        }
+        function stop (){
+            clearInterval(myInterval);
+        }
+
+        function timer (){
+            sec.innerHTML = Number(secInput.value) - 1;
+            if(secVariable === 0){
+                secVariable = 59;
+                if(minVariable > 0){
+                  min.innerHTML = minVariable - 1;
+                } else {minVariable = 0}
+            }
+        }
+
+        document.addEventListener('input' , ()=>{
+          sec.innerHTML = Number(secInput.value)
+        })
+
+        document.addEventListener('input' , ()=>{
+          min.innerHTML = Number(minInput.value)
+        })
+        
+    </script>
+</body>
+</html>
