@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="box">
+        <div class="clock">
+            <p id="c-code"></p>
+        </div>
+    </div>
+
+    <script>
+        let para = document.getElementById('c-code');
+        let time = new Date();
+        const myPrompt = window.prompt('What is your name ?');
+        if (time >= 'Sat Feb 17 2024 00:00:00' && time < 'Sat Feb 17 2024 12:00:00'){
+            para.innerHTML = 'Good Morning ' + myPrompt
+        } else if (time >= 'Sat Feb 17 2024 12:00:00' && time < 'Sat Feb 17 2024 15:00:00'){
+            para.innerHTML = 'Good Afternoon ' + myPrompt
+        } else if (time >= 'Sat Feb 17 2024 15:00:00' && time < 'Sat Feb 17 2024 22:00:00'){
+            para.innerHTML = 'Good Evening ' + myPrompt
+        } else {
+            para.innerHTML = 'Good Night ' + myPrompt
+        }
+    </script>
+
+</body>
+
+</html>

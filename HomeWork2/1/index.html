@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Mode</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="box">
+        <p id="hello">Hello</p>
+    </div>
+    </div>
+
+    <script>
+        let element = document.body;
+        let now = new Date();
+        console.log(now);
+        if(now >= 'Thu Feb 15 2024 20:00:00' && now <= 'Fri Feb 16 2024 05:00:00'){
+                element.style.background = 'linear-gradient(150deg, #d4d4d4 0%, #ececec 50%, #d4d4d4 100%)'
+            } else {
+                element.style.background = 'linear-gradient(150deg, #313131 0%, #5a5a5a 50%, #313131 100%)'
+            }
+    </script>
+
+</body>
+
+</html>
