@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookies</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="checkCookie3(); checkCookie1(); checkCookie2(); checkCookie4()">
+    <div class="box">
+        <p class="label">Name</p>
+        <input type="text" id="name">
+        <p class="label">Last Name</p>
+        <input type="text" id="lastName">
+        <p class="label">Gender</p>
+        <select name="gender" id="opt">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+        <p class="label">Color</p>
+        <input type="color" id="color">
+        <div class="matn">
+        <p id="para"></p><div id="colour"></div>
+    </div>
+    </div>
+
+    <script>
+        let inp1 = document.getElementById('name');
+        let inp2 = document.getElementById('lastName');
+        let inp3 = document.getElementById('opt');
+        let inp4 = document.getElementById('color');
+        let box = document.getElementById('colour')
+        let para = document.getElementById('para');
+
+        function setCookie(cname, cvalue, exdays) {
+            const d = new Date();
+            d.setTime(d.getTime() + exdays * 24 * 60 * 60 * 1000);
+            let expires = "expires=" + d.toUTCString();
+            document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+        }
+
+        function getCookie(cname) {
+            let name = cname + "=";
+            let decodedCookie = decodeURIComponent(document.cookie);
+            let ca = decodedCookie.split(";");
+            for (let i = 0; i < ca.length; i++) {
+                let c = ca[i];
+                while (c.charAt(0) == " ") {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) == 0) {
+                    return c.substring(name.length, c.length);
+                }
+            }
+            return "";
+        }
+
+        function checkCookie1() {
+            let name = getCookie('name');
+            if (name !== "") {
+                para.innerHTML += name
+            } else {
+                inp1.addEventListener('input' , function(){
+                    let name = inp1.value;
+                    setCookie('name' , name, 30)
+                })
+            }
+        }
+        function checkCookie2() {
+            let lastName = getCookie('lastName')
+            if (lastName !== "") {
+                para.innerHTML += lastName
+            } else {
+                inp2.addEventListener('input', function(){
+                    let lastName = inp2.value;
+                    setCookie("lastName", lastName, 30)
+                })
+            } 
+        }
+        function checkCookie3() {
+            let gender = getCookie('gender')
+            let pre
+            if(gender === 'male'){
+                pre = 'Mr.'
+            } else{pre = 'Mrs.'}
+            if (gender !== ""){
+                para.innerHTML += `I Remember you ${pre} `
+            } else {
+                let gender = inp3.value;
+                setCookie('gender', gender, 30)
+            }
+        }
+        function checkCookie4(){
+            let fcolor = getCookie('fcolor')
+            if (fcolor !== ''){
+                para.innerHTML += ", Your favorite color is"
+                box.style.backgroundColor = fcolor
+            } else {
+                inp4.addEventListener('input', function(){
+                    let fcolor = inp4.value;
+                    setCookie('fcolor', fcolor, 30)
+                })
+            }
+        }
+    </script>
+
+</body>
+
+</html>
