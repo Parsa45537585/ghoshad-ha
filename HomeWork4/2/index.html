@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body id="body">
+
+<div class="box">
+  <div class="divs">
+  <div id="div1"></div>
+  <div id="div2"></div> 
+  <div id="div3"></div>
+</div>
+  <div class="buttons">
+  <button class="btn" onclick="change()">Change</button>
+  <button class="btn" onclick="remove()">Remove</button>
+</div>
+</div>
+
+  <script>
+
+  function change() {
+    document.getElementById('div1').style.backgroundColor = 'orange';
+    localStorage.setItem('selectedDiv1', 'div1');
+  }
+
+  let selectedDiv1 = localStorage.getItem('selectedDiv1');
+
+  if (selectedDiv1) {
+    document.getElementById(selectedDiv1).style.backgroundColor = 'orange';
+  }
+
+  function remove() {
+    localStorage.removeItem("selectedDiv1");
+  }
+
+  </script>
+
+</body>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Range</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body id="body">
+  
+  <div class="box">
+
+    <div class="box-2">
+
+      <input type="range" class="range" min="0" max="100" step="1" value="50" oninput="changeValue(this)">
+      <p id="value">50</p>
+
+    </div>
+
+    <button class="btn" onclick="remove()">Remove</button>
+
+  </div>
+
+  <script>
+
+    let savedValue = localStorage.getItem("rangeValue");
+
+    if (savedValue) {
+      document.querySelector(".range").value = savedValue;
+      document.getElementById("value").innerText = savedValue;
+    }
+
+    function changeValue(range) {
+      let value = range.value;
+      document.getElementById("value").innerText = value;
+      localStorage.setItem("rangeValue", value);
+    }
+
+    function remove() {
+      localStorage.removeItem("rangeValue");
+    }
+
+  </script>
+</body>
+
+</html>
