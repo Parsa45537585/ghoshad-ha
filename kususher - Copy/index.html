@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="Player">
+
+        <img id="track_image">
+        <p id="title">Title.mp3</p>
+        <p id="artist">Artist name</p>
+        <button onclick="previous_song()" id="pre"><i class="fa fa-step-backward" aria-hidden="true"></i></button>
+        <button onclick="justplay()" id="play"><i class="fa fa-play" aria-hidden="true"></i></button>
+        <button onclick="next_song()" id="next"><i class="fa fa-step-forward" aria-hidden="true"></i></button>
+
+    </div>
+
+    <div class="duration">
+        <input type="range" min="0" max="100" value="0" id="duration_slider" onchange="change_duration()">
+    </div>
+
+    <div id="PassedLyrics"></div>
+    <div id="CurrentLyric"></div>
+    <div id="IncomingLyrics"></div>
+<!-- 
+    <audio controls id="Player">
+        <source src="Music/Future_ Metro Boomin - Show of Hands (Official Audio)(MP3_320K).mp3" type="audio/mpeg">
+    </audio> -->
+    
+    <script src="script.js"></script>
+</body>
+
+</html>

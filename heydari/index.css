@@ -1,0 +1,20 @@
+#PassedLyrics {
+    border: black 3px solid;
+    min-width: 300px;
+    min-height: 100px;
+    margin: 10px;
+}
+
+#CurrentLyric {
+    border: black 3px solid;
+    min-width: 300px;
+    min-height: 100px;
+    margin: 10px;
+}
+
+#IncomingLyrics {
+    border: black 3px solid;
+    min-width: 300px;
+    min-height: 100px;
+    margin: 10px;
+}
