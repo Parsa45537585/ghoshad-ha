@@ -1,0 +1,121 @@
+body {
+    background-color: rgb(80, 80, 80);
+    overflow-x: hidden;
+}
+
+* {
+    transition: 0.3s;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(80, 80, 80);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 30px;
+    color: white;
+    box-shadow: 0px 0px 15px rgb(48, 48, 48);
+}
+
+.top {
+    width: 100%;
+}
+
+.top img {
+    width: 100%;
+    position: absolute;
+    margin-top: 60px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    box-shadow: 0px 0px 15px rgb(48, 48, 48);
+}
+
+.top p {
+    font-size: x-large;
+    direction: rtl;
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 50px;
+    width: 60%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    color: white;
+    opacity: 0;
+    transform: translatey(200px);
+    transition: 2s;
+}
+
+.middle {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 500px;
+    color: white;
+}
+
+.cards {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgb(48, 48, 48);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: 0.3s;
+}
+
+.card img {
+    width: 250px;
+    height: 250px;
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 15px 10px rgb(32, 32, 32);
+}
+
+#c1 {
+    transition: 1s;
+    opacity: 0;
+    transform: translatey(300px);
+}
+
+#c2 {
+    transition: 1.5s;
+    opacity: 0;
+    transform: translatey(300px);
+}
+
+#c3 {
+    transition: 2s;
+    opacity: 0;
+    transform: translatey(300px);
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
