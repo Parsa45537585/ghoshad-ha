@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Spotify</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+  <div class="sidebar">
+    <a href=""><img src="Pics/Spotify_Logo_RGB_White.png" alt="" class="logo"></a>
+    <div class="sidebarContent">
+      <div><button class="sidebarBtn"><img src="Pics/icons8-home-100 (1).png" alt="" class="SBicons"> Home</button>
+      </div>
+      <div><button class="sidebarBtn"><img src="Pics/icons8-search-100.png" alt="" class="SBicons"> Search</button>
+      </div>
+      <div><button class="sidebarBtn"><img src="Pics/icons8-library-100.png" alt="" class="SBicons"> Your
+          Library</button></div>
+      <div><button class="sidebarBtn"><img src="Pics/icons8-plus-96.png" alt="" class="SBicons"> Create
+          Playlist</button></div>
+      <div><button class="sidebarBtn home"><img src="Pics/icons8-heart-90 (1).png" alt="" class="SBicons"> Liked
+          Songs</button>
+      </div>
+    </div>
+  </div>
+  <div class="main">
+    <button id="backward" onclick="history.back()"><img src="Pics/icons8-back-100.png" alt=""></button>
+    <button id="forward" onclick="history.forward()"><img src="Pics/icons8-forward-100.png" alt=""></button>
+    <button onclick="myFunction()" class="dropbtn"><img src="Pics/MahyarTurk.jpg" alt="">Alireza <i
+        class="fa fa-caret-down"></i></button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="#home">Profile</a>
+      <a href="#about">Notifications</a>
+      <a href="#contact">Library</a>
+    </div>
+  </div>
+  <div class="top">
+    <img src="Pics/IMG_20240503_202443.jpg" alt="">
+    <div>
+      <p>PLAYLIST</p>
+      <h1>Liked Songs</h1>
+      <p>Alireza . 6 songs</p>
+    </div>
+  </div>
+  <div class="bottom">
+    <div class="bottom-top">
+      <button id="play"onclick="window.location.href = './final3/index.html'"><i class="fa fa-play" aria-hidden="true"></i></button>
+      <button id="download"><img src="Pics/icons8-arrow-100.png" alt=""></button>
+    </div>
+    <div class="categories">
+      <p>#</p>
+      <p class="artist">ARTIST</p>
+      <p class="album">ALBUM</p>
+      <p class="clock"><img src="Pics/icons8-clock-96.png" alt=""></p>
+    </div>
+    <div class="list">
+      <div class="list-item" onclick="window.location.href = './final3/index.html'">
+        <p class="num">1</p>
+        <img src="Pics/am.jpg" alt="" class="list-img">
+        <div class="name">
+          <p class="title">Do I Wanna Know?</p>
+          <p class="artist2">Arctic Monkeys</p>
+        </div>
+        <p class="album2">AM</p>
+        <p class="timestamp">4:33</p>
+      </div>
+      <div class="list-item" onclick="window.location.href = '/final3/index.html'">
+        <p class="num">2</p>
+        <img src="Pics/still trust.jpg" alt="" class="list-img">
+        <div class="name">
+          <p class="title">Show Of Hands</p>
+          <p class="artist2">Future & Metro Boomin</p>
+        </div>
+        <p class="album2">WE STILL DON'T TRUST YOU</p>
+        <p class="timestamp">3:35</p>
+      </div>
+      <div class="list-item" onclick="window.location.href = '/final3/index.html'">
+        <p class="num">3</p>
+        <img src="Pics/further.jpg" alt="" class="list-img">
+        <div class="name">
+          <p class="title">TIL FURTHER NOTICE</p>
+          <p class="artist2">Travis Scott</p>
+        </div>
+        <p class="album2">Utopia</p>
+        <p class="timestamp">5:14</p>
+      </div>
+      <div class="list-item" onclick="window.location.href = '/final3/index.html'">
+        <p class="num">4</p>
+        <img src="Pics/heroes.jpg" alt="" class="list-img">
+        <div class="name">
+          <p class="title">Creepin'</p>
+          <p>Metro Boomin</p>
+        </div>
+        <p>HEROES & VILLAINS</p>
+        <p class="timestamp">3:41</p>
+      </div>
+      <div class="list-item" onclick="window.location.href = '/final3/index.html'">
+        <p class="num">5</p>
+        <img src="Pics/kdot.jpg" alt="" class="list-img">
+        <div class="name">
+          <p class="title">PRIDE.</p>
+          <p>Kendrick Lamar</p>
+        </div>
+        <p>DAMN.</p>
+        <p class="timestamp">4:35</p>
+      </div>
+      <div class="list-item" onclick="window.location.href = '/final3/index.html'">
+        <p class="num">6</p>
+        <img src="Pics/world.jpg" alt="" class="list-img">
+        <div class="name">
+          <p class="title">Worlds Apart</p>
+          <p>Ash</p>
+        </div>
+        <p>Worlds Apart - Single</p>
+        <p class="timestamp">4:23</p>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>

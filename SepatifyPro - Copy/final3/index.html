@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <img src="" alt="" id="backimg">
+    <div class="header">
+        <button onclick="myFunction()" class="dropbtn"><img src="Pics/MahyarTurk.jpg" alt="">Alireza <i
+                class="fa fa-caret-down"></i></button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="#home">Profile</a>
+            <a href="#about">Notifications</a>
+            <a href="#contact">Library</a>
+        </div>
+        <a href="../index.html"><img src="Pics/Spotify_Logo_RGB_White.png" alt="" class="logo"></a>
+        <button id="backward" onclick="history.back()"><img src="Pics/icons8-back-100.png" alt=""></button>
+        <button id="forward" onclick="history.forward()"><img src="Pics/icons8-forward-100.png" alt=""></button>
+    </div>
+    <div class="PlayerBox">
+
+        <img id="track_image">
+        <div class="PlayerText">
+            <p id="title">Title.mp3</p>
+            <p id="artist">Artist name</p>
+            <p id="album" onclick="">Album name</p>
+        </div>
+
+
+    </div>
+
+    <div id="lyricsBox">
+        <div id="PassedLyrics"></div>
+        <div id="CurrentLyric"></div>
+        <div id="IncomingLyrics"></div>
+    </div>
+
+    <div class="PlayerBox2">
+        <div class="btns">
+            <button id="like"><i class="fa-solid fa-heart-o" aria-hidden="true"></i></button>
+            <div class="PlayerBtn">
+                <button onclick="repeatBtn()" id="repeat"><i class="fa-solid fa-repeat" aria-hidden="true"></i></button>
+                <button onclick="previous_song()" id="pre"><i class="fa fa-step-backward"
+                        aria-hidden="true"></i></button>
+                <button onclick="justplay()" id="play"><i class="fa fa-play" aria-hidden="true"></i></button>
+                <button onclick="next_song()" id="next"><i class="fa fa-step-forward" aria-hidden="true"></i></button>
+                <button id="random"><i class="fa fa-random" aria-hidden="true"></i></button>
+            </div>
+            <input type="range" min="0" max="1" step="0.01" id="volume-slider" />
+        </div>
+
+
+        <div class="duration">
+            <p id="timestmp">0:00</p>
+            <input type="range" min="0" max="100" value="0" id="duration_slider" onchange="change_duration()">
+            <p id="timeStamp">0:00</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
